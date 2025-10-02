@@ -1,0 +1,65 @@
+
+body {
+    box-sizing: border-box;
+    padding: 10%;
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1{
+    border-bottom: 3px dashed black;
+    /* width: 50%; */
+}
+
+.banner{
+    display: flex;
+    background-image: url("djSet.jpg");
+    background-position: center;
+    height: 100px;
+}
+#welcome{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    background-color: beige;
+    color: rgb(4, 4, 78);
+    padding: 1px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap; /* Optional: Wrap on small screens */
+}
+
+
+.rem, .picks {
+    display: flex;
+    background-color: beige;
+    color: rgb(4, 4, 78);
+    padding: 15px;
+    border: 10px solid darkblue;
+    flex: 1;
+    min-width: 300px;
+}
+
+.rpgR{
+    border-top: 3px dashed black;
+}
+
+.footer{
+    display: flex;
+    background-image: url("musicgif.gif");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: cover;
+}
